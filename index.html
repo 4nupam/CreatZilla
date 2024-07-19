@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CreatifZilla</title>
+    <link rel="stylesheet" href="./styles/Style.css">
+</head>
+<body>
+    <!-- Nav Part -->
+    <nav>
+        <div class="nav_logo">
+            <svg width="32" height="19" viewBox="0 0 32 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15.624 0.85597C15.8596 0.752174 16.128 0.752064 16.3637 0.855668L30.1376 6.9104C31.5206 7.5183 31.6189 9.44295 30.305 10.1886L16.4474 18.0529C16.1661 18.2126 15.8215 18.2124 15.5403 18.0525L1.71253 10.1876C0.400725 9.4415 0.499004 7.51936 1.88007 6.91092L15.624 0.85597Z" fill="#FFADF2" fill-opacity="0.5"/>
+            </svg>
+            <span class="company_logo">Company Logo</span>
+        </div> 
+        <div class="nav_mid">
+            <ul>
+                <li><a href="#">Partners</a></li>
+                <li><a href="#">How we Work</a></li>
+                <li><a href="#">Review</a></li>
+                <li><a href="#">Charity</a></li>
+            </ul>
+        </div>
+        <button class="nav_button" style="border:none">Join The Creator</button>
+        <div class="menu">
+            <span>&#9776;</span>
+        </div>
+    </nav>
+    <!-- Nav Part Ends Here -->
+
+    <!-- Hero Section -->
+    <div class="hero_container">
+        <div class="hero_left">
+            <img src="./Assests/hands_1.svg" alt="Hands" class="hero_img">
+            <div class="bulb_insta">
+                <img src="./Assests/bulb.svg" alt="Bulb" class="bulb_img">
+                <img src="./Assests/insta 1.svg" alt="Insta" class="insta_img">
+            </div>
+            <img src="./Assests/fb1.svg" alt="Facebook" class="facebook_img">
+        </div>
+        <div class="hero_middle">
+            <h1 class="header">Spark your brand's <b>imaginative</b> flair <br> with us</h1>
+            <p class="hero_tag">Our team combines strategy, design, and technology to breathe life into your <br> brand. Collaborate with us to leave a lasting impression on your audience.</p>
+            <div class="hero_input">
+                <input type="email" class="input_email" placeholder="Enter Your Email">
+                <button class="join_btn">Join</button>
+            </div>
+        </div>
+        <div class="hero_right">
+            <div class="bulb_insta">
+                <img src="./Assests/bulb.svg" alt="Bulb" class="bulb_img">
+                <img src="./Assests/insta 1.svg" alt="Insta" class="insta_img">
+            </div>
+            <img src="./Assests/hands_2.svg" alt="Hands" class="hands_img">
+        </div>
+    </div>
+    <!-- Hero Section Ends Here -->
+
+    <!-- Contact Section Starts Here -->
+    <div class="contact">
+        <span class="contact_section">Contact us today to explore partnership <b class="contact_oppu">opportunities! <span></span></b></span>
+        <div class="partners">
+            <div class="partners_part1">
+                <h5>Partners:</h5>
+                <p class="partners_desc">Our creative agency forms strong partnerships with diverse businesses, from startups to global brands, based on trust, respect, and a shared vision for success.</p>
+            </div>
+            <div class="card_container">
+                <div class="partners_card">
+                    <div class="card_header">
+                        <img src="./Assests/twitter.svg" alt="Twitter">
+                        <p>2008 - Today</p>
+                    </div>
+                    <p class="partners_desc">Our creative agency forms strong partnerships with diverse businesses, from startups to global brands, based on trust, respect, and a shared vision for success.</p>
+                </div>
+                <div class="partners_card">
+                    <div class="card_header">
+                        <img src="./Assests/pinterest.svg" alt="Pinterest">
+                        <p>2008 - Today</p>
+                    </div>
+                    <p class="partners_desc">Our creative agency forms strong partnerships with diverse businesses, from startups to global brands, based on trust, respect, and a shared vision for success.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact Section Ends Here -->
+
+    <!-- Last Section Starts Here -->
+    <div class="last_container">
+        <h2 class="last_header">Making it big on any Platform is <br> tougher than you think</h2>
+        <div class="last_bottom">
+            <div class="last_left">
+                <img src="./Assests/insta 1.svg" alt="Instagram">
+                <img src="./Assests/youtube.png" alt="YouTube">
+                <img src="./Assests/pinterest.svg" alt="Pinterest">
+                <img src="./Assests/youtube.png" alt="YouTube">
+            </div>
+            <div class="last_middle">
+                <img src="./Assests/woman.svg" alt="Woman">
+            </div>
+            <div class="last_right">
+                <img src="./Assests/insta 1.svg" alt="Instagram">
+                <img src="./Assests/youtube.png" alt="YouTube">
+                <img src="./Assests/pinterest.svg" alt="Pinterest">
+                <img src="./Assests/insta 1.svg" alt="Instagram">
+            </div>
+        </div>
+    </div>
+    <!-- Last Section Ends Here -->
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const menu = document.querySelector(".menu");
+            const navMid = document.querySelector(".nav_mid");
+
+            menu.addEventListener("click", function() {
+                navMid.classList.toggle("active");
+            });
+        });
+    </script>
+</body>
+</html>
